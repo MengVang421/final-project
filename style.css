@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Indie+Flower&display=swap');
+
+body{
+	font-family:'Indie Flower',sans-serif ;
+	margin: 0;
+	background-color: lightyellow;
+}
+h1{
+	text-align: center;
+}
+h2{
+	color: black;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+nav{
+	background-color: yellow;
+	border-top: 2px green;
+	border-bottom: 2px green;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color:purple;
+}
+
+nav a:visited {
+	color:purple;
+}
+
+nav a:hover  {
+	color:orange;
+}
+
+nav a:active  {
+	color:blue;
+}
+footer{
+	text-align: center;
+	border-top: 1px blue;
+	padding: 10px;
+	background-color: lightgreen;
+}
+i.fa{
+	color: green;
+	font-size: 100px;
+}
+.home-hero{
+	background-image: url(image/header.jpg);
+	height: 400px;
+	width: 1200px;
+	background-size: cover;
+	background-position: center;
+	color: black;
+	padding: 10px 10px 10px 30px;
+}
+.rabbit{
+	background-image: url(image/rabbit.jpg);
+	height: 400px;
+	width: 1200px;
+	background-size: cover;
+	background-position: center;
+	color: black;
+	padding: 10px 10px 10px 30px;
+}
+blockquote{
+	text-align: center;
+	margin-left: 150px;
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width:  768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
